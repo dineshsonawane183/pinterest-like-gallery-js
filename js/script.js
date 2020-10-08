@@ -41,7 +41,7 @@
 
     }
     function fetchDataFeed() {
-        var cdnFeedUrl = "https://cdn.pinkvilla.com/feed/fashion-section.json";
+        var cdnFeedUrl = "https://content.xynie.com/feed/fashion-section.json";
         return fetch(cdnFeedUrl)
             .then(response => response.json())
     }
